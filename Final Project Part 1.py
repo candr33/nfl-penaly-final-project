@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-
+j
 # --- Sidebar Filters ---
 st.sidebar.title("Filter Options")
 selected_team = st.sidebar.selectbox("Select Team", [])
@@ -53,4 +53,5 @@ with tab4:
 with tab5:
     st.header("Season Insights")
     st.markdown("Summary table and heatmap comparing offensive vs defensive penalties.")
+
     # Placeholder for future visualizations
