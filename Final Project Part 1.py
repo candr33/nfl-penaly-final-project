@@ -1,4 +1,4 @@
-J import streamlit as st
+import streamlit as st
 import pandas as pd
 
 # --- Sidebar Filters ---
@@ -55,5 +55,6 @@ with tab5:
     st.markdown("Summary table and heatmap comparing offensive vs defensive penalties.")
 
     # Placeholder for future visualizations
+
 
 
